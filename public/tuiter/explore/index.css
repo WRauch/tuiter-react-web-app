@@ -1,77 +1,20 @@
-.wd-rounded-corners-all-around {
+
+.wd-button-rounding {
     border-radius: 50px;
-    }
-
-.wd-grey-font {
-    color:rgb(110, 118, 125);
-    font-size: 13px;
 }
 
-.wd-body {
-    background-color: black;
-    color: white;
-    font-family: Arial;
-}
-
-.wd-border {
-    border-color: rgb(47, 51, 54);
-    border-width: 1px;
-    border-style: solid;
-    padding: 16px;
-    overflow: hidden;
-    margin: auto;
+.wd-full {
+    width: 100%;
 }
 
 .wd-search-bar {
     padding-left: 25px;
     background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
     background-size: 20px;
-    background-color: rgb(47, 51, 54);
     border-radius: 50px;
-    width: 50%;
-    color: white;
-    align-items: center;
     margin: auto;
 }
 
-.wd-grid-col-half-page {
-    width: 50%;
-}
-
-.wd-grid-row {
-    clear: both;
- }
- 
-.wd-margin-all-around {
-margin: 30px;
-}
-
-.wd-grid-part-b {
-    width: 16.67%;
-    float: left;
-}
-
-.wd-float-left {
-    float: left;
-    padding: 16px;
-    font-size: 15px;
-}
-    
-.wd-blue-underline {
-    color: rgb(29,161,242);
-    text-decoration: underline rgb(29,161,242) 3px;
-    text-underline-offset: 10px;
-}
-
-.wd-display-inline {
-    display:inline;
-}
-
-.wd-images {
-    float:right;
-    border-radius: 8px;
-}
-
-.wd-no-bottom {
-    padding-bottom: 0px;
+.font {
+    font-size: 1vw;
 }

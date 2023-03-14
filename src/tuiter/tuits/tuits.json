@@ -1,0 +1,43 @@
+[{
+  "_id": 234,
+  "topic": "Space",
+  "userName": "SpaceX",
+  "time": "2h",
+  "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+  "image": "spacex.png",
+  "liked": true,
+  "replies": 123,
+  "retuits": 432,
+  "likes": 2345,
+  "handle": "@spacex",
+  "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+},
+   {
+    "_id": 123,
+    "topic": "Space",
+    "userName": "Tesla",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "tesla.png",
+    "liked": false,
+    "replies": 234,
+    "retuits": 543,
+    "likes": 3456,
+    "handle": "@tesla",
+    "tuit": "Autopilot is an advanced driver asistance system that assists your car with steering, accelerating, and braking for other vehicles and pedestrians in its lane. It assists with the most burdensome partd of driving alongside features like emergency braking, colission warning and blind spot monitoring. With Full Self-Driving (FSD) you will get access to a suite of more advanced driver assistnce features, designed to provde more actie guidance and assisted driving under your supervision."
+  },
+  {
+    "_id": 999,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "spacex.png",
+    "liked": true,
+    "replies": 345,
+    "retuits": 321,
+    "likes": 1234,
+    "handle": "@spacex",
+    "tuit": "Tesla Cybertruck lands on Mars and does some other things once it is there. This is the entire tweet."
+  }
+]

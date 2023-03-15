@@ -18,7 +18,6 @@ function Tuiter() {
  return (
     <Provider store={store}>
     
-    
     <Routes>
     <Route index
         element={    <div className="row mt-2">
@@ -35,7 +34,7 @@ function Tuiter() {
     </div>}>
 
         </Route>
-    <Route path="/explore" element={   <div className="row mt-2">
+    <Route path="explore" element={   <div className="row mt-2">
         <div className="col-2 col-md-2 col-lg-1 col-xl-2">
         <NavigationSidebar active="explore"/>
         </div>

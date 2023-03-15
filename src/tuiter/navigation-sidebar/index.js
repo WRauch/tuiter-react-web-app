@@ -11,14 +11,14 @@ const NavigationSidebar = (
      <a className="list-group-item">Tuiter</a>
      <Link to="/tuiter" className={`list-group-item
                      ${active === 'home'?'active':''}`}> <i class="bi bi-house-door-fill"></i> Home </Link>
-     <a className={`list-group-item
-                    ${active === 'explore'?'active':''}`} href='/tuiter/xyz'>
+     <Link to="/tuiter/explore" className={`list-group-item
+                    ${active === 'explore'?'active':''}`}>
        <i class="bi bi-hash"></i> Explore
-     </a>
-     <a className={`list-group-item
-                    ${active === 'labs'?'active':''}`} href='/'> 
+     </Link>
+     <Link to="/" className={`list-group-item
+                    ${active === 'labs'?'active':''}`}> 
        <i class="bi bi-asterisk"></i> Labs
-     </a>
+     </Link>
      <a className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
        <i class="bi bi-bell"></i> Notifications

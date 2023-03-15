@@ -13,7 +13,7 @@ const NavigationSidebar = (
     <i class="bi bi-house-door-fill"></i> Home
      </a>
      <a className={`list-group-item
-                    ${active === 'explore'?'active':''}`} href='/tuiter/explore'>
+                    ${active === 'explore'?'active':''}`} href='/tuiter/xyz'>
        <i class="bi bi-hash"></i> Explore
      </a>
      <a className={`list-group-item

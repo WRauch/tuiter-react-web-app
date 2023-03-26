@@ -1,6 +1,8 @@
 import React from "react";
 import {useDispatch} from "react-redux";
-import { deleteTuit, likeTuit } from "./tuits-reducer";
+import { likeTuit } from "./tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
+import TuitStats from "./tuit-stats";
 
 const TuitItem = (
  {
@@ -15,10 +17,7 @@ const TuitItem = (
 ) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
-    }
-    const likeTuitHandler = (tuit) => {
-        dispatch(likeTuit(tuit))
+      dispatch(deleteTuitThunk(id));
     }
      
     return(
@@ -34,24 +33,7 @@ const TuitItem = (
                 <i className="bi bi-x-lg float-end"
                    onClick={() => deleteTuitHandler(tuit._id)}></i>
                 </div>
-       <div>{tuit.userName} <i className="bi bi-patch-check-fill text-primary"></i> {tuit.handle} . {tuit.time}</div>
-       <div>{tuit.tuit}</div>
-       <br/>
-       <div className="row">
-        <div className="col-3">
-        <i class="bi bi-chat"></i> {tuit.replies}
-        </div>
-        <div className="col-3">
-        <i class="bi bi-arrow-repeat"></i> {tuit.retuits}  
-
-        </div>
-        <div className="col-3">
-        <i className={`bi ${tuit.liked ?'bi-heart-fill text-danger':'bi-heart'}`} onClick={() => likeTuitHandler(tuit)}></i> {tuit.likes} 
-        </div>
-        <div className="col-3">
-        <i class="bi bi-share"></i>
-        </div>
-       </div>
+                <TuitStats tuit={tuit}/>
      </div>
    </div>
   </li>
